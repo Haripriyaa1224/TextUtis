@@ -1,0 +1,44 @@
+.e-container{
+    /* background-color: aqua; */
+    padding: 1rem 2rem;
+    border: 5px solid rgb(22, 138, 34);
+    width:40vw;
+    
+}
+
+.e-container h1{
+   text-align: center;
+}
+.e-card ul{
+    list-style: none;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: bisque;
+width:90%;
+text-align: center;
+border-radius: 5px;
+    /* border: 5px solid gray; */
+}
+
+.e-card ul li{
+    width:30%;
+}
+
+.disabled {
+    opacity: 0.5; /* Adjust opacity to visually indicate the disabled state */
+    pointer-events: none; /* Disable pointer events to prevent interaction */
+  }
+
+.e-card ul  li button{
+    background-color: rgb(27, 27, 156);
+    color:white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    /* vertical-align: center; */
+}
+
+.e-card ul  li button:hover{
+    background-color: blue;
+}

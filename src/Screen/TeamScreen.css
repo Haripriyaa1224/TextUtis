@@ -1,0 +1,14 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5rem;
+
+}
+
+.main{
+    display: flex;
+    gap:100px;
+    line-height: 2;
+    /* justify-content: space-around; */
+}
