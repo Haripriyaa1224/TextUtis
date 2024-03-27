@@ -3,6 +3,7 @@ import './TeamScreen.css'
 import React, { useReducer } from 'react';
 import EmployeeCard from '../Components/EmployeeCard';
 import TeamCard from '../Components/TeamCard';
+import TextEditor from '../Components/TextEditor';
 
 
 // Define initial state
@@ -39,8 +40,9 @@ const TeamScreen = () => {
     <StateContext.Provider value={state}>
       <DispatchContext.Provider value={dispatch}>
         <div className='main'>
-          <EmployeeCard />
-          <TeamCard />
+          {/* <EmployeeCard /> */}
+          {/* <TeamCard /> */}
+          
         </div>
       </DispatchContext.Provider>
     </StateContext.Provider>
